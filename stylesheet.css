@@ -3,15 +3,27 @@ h1
 	font-family:Comic Sans MS; 
 	font-size: 50px;
 }
+a:link, a:visited 
+{
+background-color: #B0B0B0;
+color:#B0B0B0;
+padding: 5px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+a:hover, a:active 
+{
+background-color: white;
+}
 #gbutton
 {
 	font-family:Comic Sans MS; 
 	background: #00AF3A; 
 	padding: 16px;  
 	color: #fff; 
-	border-style: solid; 
-	border-color: #B0B0B0; 
-	border-width: 3px; 
+	border-style: none; 
+	border-width: 0; 
 	font-size: 20px;
 }
 
@@ -21,12 +33,11 @@ h1
 	background: #FFF200;  
 	padding: 16px;  
 	color: #000000;  
-	border-style: solid; 
+	border-style: none; 
 	border-color: #B0B0B0; 
 	border-width: 3px; 
 	font-size: 20px;
 }
-
 
 #yellowback
 {
