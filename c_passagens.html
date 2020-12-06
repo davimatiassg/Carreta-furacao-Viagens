@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<meta charset="utf-8">
 	<title>Compre sua Carreta</title>
-    <h1 style = "font-family:Comic Sans MS; font-size: 50px;">CARRETA FURACÃO PASSEIOS</h1>
+    <h1>CARRETA FURACÃO PASSEIOS</h1>
 </head>
 
 <body>
-  <div align="center" style="background: #FFF200;">
+  <div align="center" id="yellowback">
   	<form action="https://formspree.io/f/mknpzqbb" method="POST">
-      <table style="background: #00AF3A;">
+      <table>
         <tr>
-          <td style="border: 0px">
+          <td id="formcamp">
             <label for="name">
               Seu Nome: <input type="text" id="name" name="nome-cliente"/> <br><br>
             </label>
@@ -31,18 +32,18 @@
             </label>
             <br><br>
           </td>
-          <td style="border: 0px">
-             <button type = "submit" style="background: #262F68; border-radius: 2px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Comprar</button>
+          <td id="formcamp">
+             <button type = "submit" id="gbutton">Comprar</button>
           </td>
-          <td style="border: 0px">
+          <td id="formcamp">
             <img src="carreta fura ca4.png" width="424" height="215" style="align-self: left"> 
           </td>
         </tr>
         <tr>
-          <td style="border: 0px">
+          <td id="formcamp">
             <table>
               <tr>
-                <td style="border: 0px">
+                <td id="formcamp">
                   <label> Início:
                     <select id="ci" name="inicio">
                       <option value="Maceió">Maceió</option>
@@ -58,7 +59,7 @@
                   </label>
 
                 </td>
-                <td style="border: 0px">
+                <td id="formcamp">
                   <label> Destino:
                     <select id="ci" name="destino">
                       <option value="Maceió">Maceió</option>
@@ -84,10 +85,10 @@
             </label>
               <br><br>
           </td>
-          <td style="border: 0px">
-            <a href="home.html"><button type="button" style="background: #262F68; border-radius: 2px; padding: 8px;  color: #fff; border: none; font-size: 14px;">Voltar</button></a>
+          <td id="formcamp">
+            <a href="home.html"><button type="button" id="gbutton">Voltar</button></a>
           </td>
-          <td style="border: 0px">
+          <td id="formcamp">
             <img src="carreta fura ca1.png" width="424" height="215" style="align-self: left"> 
           </td>
         </tr>
@@ -102,7 +103,7 @@
 
 
       <h3>NATAL-SALVADOR</h3>
-    <table style="background: #00AF3A;color: #ffffff;">
+    <table id="maintable">
       <tr>
         <th>cidades</th>
         <th>horário de ida</th>
@@ -160,7 +161,7 @@
     </table>
 
       <h3>NATAL-SÃO LUÍS</h3>
-      <table style="background: #00AF3A; color: #ffffff;">
+      <table id="maintable">
         <tr>
           <th>cidades</th>
           <th>horário de ida</th>
@@ -208,7 +209,7 @@
         </tr>
       </table>
       <br>  <br> <h1>Informações sobre as carretas</h1> <br>
-      <table style="background: #00AF3A;color: #ffffff;">
+      <table id="maintable">
         <tr>
           <td>Carretas</td>
           <td>Carreta normal</td>
