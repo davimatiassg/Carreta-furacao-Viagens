@@ -1,0 +1,56 @@
+h1
+{
+	font-family:Comic Sans MS; 
+	font-size: 50px;
+}
+#gbutton
+{
+	font-family:Comic Sans MS; 
+	background: #00AF3A; 
+	padding: 16px;  
+	color: #fff; 
+	border-style: solid; 
+	border-color: #B0B0B0; 
+	border-width: 3px; 
+	font-size: 20px;
+}
+
+#ybutton
+{
+	font-family:Comic Sans MS; 
+	background: #FFF200;  
+	padding: 16px;  
+	color: #000000;  
+	border-style: solid; 
+	border-color: #B0B0B0; 
+	border-width: 3px; 
+	font-size: 20px;
+}
+
+
+#yellowback
+{
+	font-family:Comic Sans MS;
+	background-color: #FFF200;
+	font-size: 36px;
+	color:#000;
+}
+
+#greenback
+{	
+	font-family:Comic Sans MS; 
+	background-color: #00AF3A;
+	font-size: 36px;
+	color:#fff;
+}
+
+#formcamp
+{
+	border: 0px;
+}
+
+#maintable
+{
+	background: #00AF3A; 
+	color: #ffffff;
+}
